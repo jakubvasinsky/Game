@@ -26,7 +26,7 @@ public class Game {
     public void resetgame() {
         if(state != READY) {
             state = READY;
-            field = null;
+            field = new Field();
         }
     }
 
